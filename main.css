@@ -1,0 +1,13 @@
+nav li{
+    display: inline;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.logo, .search{
+    text-align: center;
+}
