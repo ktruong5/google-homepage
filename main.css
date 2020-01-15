@@ -1,5 +1,24 @@
-nav li{
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+body{
+    font-family: arial,sans-serif;
+
+}
+nav ul, nav ul div, nav ul li{
     display: inline;
+}
+.left-nav{
+    float: left;
+}
+.right-nav{
+    float: right;
+}
+a { 
+    text-decoration: none; 
+    color: black;
 }
 .container{
     display: block;
@@ -7,7 +26,49 @@ nav li{
     margin-right: auto;
     margin-top: 10%;
 }
-
-.logo, .search{
+.signin-btn{
+    background-color: #4c8bf5;
+    border: none;
+    color: white;
+    border-radius: 4px;
     text-align: center;
+    padding: 5x 10px;
+}
+.logo, .search, .mid-btns{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.search-bar{
+    border-radius: 50px;
+    width: 30%;
+    height: 45px;
+    border: 2px solid rgba(185, 185, 185, 0.616);
+    background: white;
+}
+.mid-btns button{
+    background-color: #F0F0F0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+}
+.left-nav, .right-nav, .left-ftr, .left-ftr li, .right-ftr, .right-ftr a, .left-nav li, .right-nav a, .right-nav button{
+    padding: 14px 15px;
+    font-size: medium;
+}
+.left-ftr{
+    float: left;  
+}
+.right-ftr{
+    float: right;
+}
+
+footer{
+    background-color: #F0F0F0;
+    display: block;
+    bottom: 0;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    height: 35px;
 }
